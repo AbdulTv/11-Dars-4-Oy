@@ -1,0 +1,191 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {background-color: #000;}
+
+.container {
+    max-width: 90%;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+
+}
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+header {
+    background-image: url(./image\ 1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 1000px;
+
+
+
+}
+
+.header-steem-buttton {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding: 11px 0;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 10%, rgba(0, 159, 245, 0.03125) 29%, rgba(0, 212, 255, 1) 100%);
+    color: #fff;
+    font-weight: 900;
+    border-radius: 10px;
+    transition: 300ms ease;
+
+    box-shadow: rgba(0, 212, 255, 1) 0px 10px 10px 5px, rgba(255, 0, 0, 0.3) 20px 3px 7px -3px;
+}
+
+.header-steem-buttton:hover {
+    display: flex;
+    align-items: center;
+    width: 150px;
+    padding: 11px 0;
+    justify-content: center;
+    gap: 5px;
+    border: none;
+    background: rgb(2, 0, 36);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    color: #fff;
+    font-weight: 900;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    transition: 300ms ease;
+}
+
+
+a {
+    font-size: 26px;
+    color: #ffff;
+    text-shadow: -5px 5px 2px #000;
+}
+
+select {
+    border: none;
+    width: 200px;
+    background-color: transparent;
+    color: #fff;
+    background-color: #00000000;
+    font-size: 26px;
+    border: solid 2px #000;
+}
+
+.option {background-color: #000;}
+
+.h1 {
+    background-color: #FFC611;
+    border: solid 3px #5A5555;
+    margin-top: 140px;
+    width: 600px;
+    height: 55px;
+    text-align: center;
+    border-radius: 50px;
+    border: solid 4px #5A5555;
+    margin-left: 25%;
+    padding: 5px;
+}
+
+.box {
+    width: 361px;
+    height: 400px;
+    background-color: #1F1F1F;
+    text-align: center;
+}
+
+.h1-1 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42.19px;
+    text-shadow: #FC0 2px 0 5px;
+}
+
+.box-father {display: flex; gap: 125px; justify-content: center;
+margin-top: 150px;}
+
+.father {
+    width: 1440px;
+    height: 1070px;
+}
+
+.h1-2 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    color: #5A5555;
+    text-align: center;
+    margin-top: 70px;
+    text-shadow: rgb(248, 247, 245) 0px 0 5px;
+}
+
+.p-1 {color: #fff; width: 300px; margin-left: 50px; margin-right: 50px;}
+
+.father-box1 {display: flex; margin-top: 70px; justify-content: center;}
+
+.father-box2 {display: flex; margin-top: 120px; justify-content: center;}
+
+.button1 {margin-top: 38.5%; 
+width: 150px;
+height: 40px;
+margin-left: 50px;
+margin-right: 50px;
+background-color: #86b3f6;
+}
+
+.button1:hover {margin-top: 38.5%; 
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #535353;
+    }
+
+.button2 {margin-top: 38.5%;
+width: 150px;
+height: 40px;
+margin-left: 50px;
+margin-right: 50px;
+background-color: #FFC200;
+}
+
+.button2:hover {margin-top: 38.5%;
+    width: 150px;
+    height: 40px;
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: #c888f3;
+    }
+
+.pasi {
+    background-color: #FC0;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    gap: 1000px;
+    margin-top: 100px;
+}
+
+.pasi1 {display: flex; gap: 35px; align-items: center;}
+
+.img1 {margin-left: 80px;}
